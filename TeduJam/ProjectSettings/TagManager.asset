@@ -8,6 +8,7 @@ TagManager:
   - BlueButton
   - RedButton
   - GreenButton
+  - furniture
   layers:
   - Default
   - TransparentFX

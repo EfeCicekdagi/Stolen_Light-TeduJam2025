@@ -20,7 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Start UI/HowToPlay.unity
     guid: b3d08f335475f4c4ea40782eeb93601e
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Story.unity
     guid: d7ed23ff16c2afd4db434b0a93c95c1a
   - enabled: 1
@@ -53,4 +53,22 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Episodes/Episode 10.unity
     guid: bd8ac5f2ec51dca4c9b1de59b48ae7bb
+  - enabled: 1
+    path: Assets/Scenes/Story/Story 1.unity
+    guid: e3b2d68534f8b894d8ff0589fd7c16aa
+  - enabled: 1
+    path: Assets/Scenes/Story/Story 2.unity
+    guid: 22307951c8f49a4438077a9929e1b72c
+  - enabled: 1
+    path: Assets/Scenes/Story/Story 3.unity
+    guid: 694d8c20def544240b71de8b8e8db78e
+  - enabled: 1
+    path: Assets/Scenes/Story/Story 4.unity
+    guid: 9cb4cba84f40a4b41965325ac2ca5f21
+  - enabled: 1
+    path: Assets/Scenes/Story/Story 5.unity
+    guid: 504668c892b2f2c4581b639a585016c3
+  - enabled: 1
+    path: Assets/Scenes/Episodes/Final.unity
+    guid: 94d40065961ae0e45a150eb9c3e6f689
   m_configObjects: {}

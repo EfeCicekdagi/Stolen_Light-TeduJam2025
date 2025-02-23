@@ -6,8 +6,8 @@ public class laser_beam : MonoBehaviour
 {
     private Collider2D col;
     private bool isPlayer;
-    private Character character;
-    public int damage = 3;
+    private Health character;
+    public float damage = 5f;
     public float damageCd = 1f;
     private float timer = 1;
     // Start is called before the first frame update
@@ -36,7 +36,7 @@ public class laser_beam : MonoBehaviour
         if (col.CompareTag("Player"))
         {
             isPlayer = true;
-            character = col.GetComponent<Character>();
+            character = col.GetComponent<Health>();
         }
 
     }
@@ -46,7 +46,7 @@ public class laser_beam : MonoBehaviour
         if (col.CompareTag("Player"))
         {
             isPlayer = false;
-            character = col.GetComponent<Character>();
+            character = col.GetComponent<Health>();
         }
 
     }

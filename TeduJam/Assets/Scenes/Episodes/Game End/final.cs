@@ -23,7 +23,7 @@ public class ButtonInteraction : MonoBehaviour
 
     void Update()
     {
-        if (isPlayerNear && Input.GetKeyDown(KeyCode.E)) 
+        if (Input.GetKeyDown(KeyCode.E)) 
         {
             SceneManager.LoadScene("Ended Successfully"); 
         }

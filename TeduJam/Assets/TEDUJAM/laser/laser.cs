@@ -11,10 +11,14 @@ public class laser : MonoBehaviour
     private Collider2D laserCol;
     private laser_detect_area isPlayer;
     private bool areaLight;
+    private Animator anim;
+    private bool laserActive;
     void Start()
     {
+        
         if (laserBeam != null)
         {
+            anim = laserBeam.GetComponent<Animator>();
             laserCol = laserBeam.GetComponent<Collider2D>();
             laserCol.enabled = false;
         }
@@ -30,10 +34,22 @@ public class laser : MonoBehaviour
     {
         if(light && isPlayer.getIsPlayer())
         {
+            if(laserActive!=true)
+            {
+                laserActive = true;
+                anim.SetTrigger("active");
+            }
+            
             laserCol.enabled = true;
         }
         else
         {
+            if (laserActive != false)
+            {
+                laserActive = false;
+                anim.SetTrigger("deActive");
+            }
+
             laserCol.enabled = false;
         }
     }

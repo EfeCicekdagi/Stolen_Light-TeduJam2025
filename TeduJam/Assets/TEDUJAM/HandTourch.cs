@@ -108,6 +108,24 @@ public class HandTourch : MonoBehaviour
             if(door != null){
                 door.DoorPos(true);
             }
+            if (spike1 != null)
+            {
+                Debug.Log("efe yanlış");
+
+                spike1.setLight(true);
+            }
+            if (lasercol != null)
+            {
+                lasercol.isLight(true);
+            }
+            if (button != null) {
+                Debug.Log("efe yanlış");
+                button.ButtonAccess(true);
+            }
+            if (door != null) {
+                door.DoorPos(true);
+            }
+        
 
         }
         for(int i= hitObjects1.Count -1 ;i>=0 ; i--){

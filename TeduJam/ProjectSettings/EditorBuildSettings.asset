@@ -71,4 +71,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Episodes/Final.unity
     guid: 94d40065961ae0e45a150eb9c3e6f689
+  - enabled: 1
+    path: Assets/Scenes/Episodes/Game End/Ended Successfully.unity
+    guid: 7e17312a2c5c98b48a644f11fcc36d98
   m_configObjects: {}

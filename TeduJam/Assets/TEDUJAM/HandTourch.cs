@@ -79,50 +79,42 @@ public class HandTourch : MonoBehaviour
         laser lasercol;
         ButtonLightControl button;
         DoorController door;
-        foreach ( Collider2D  obj in newObjects){
-            if(!hitObjects1.Contains(obj)){
+        foreach (Collider2D obj in newObjects) {
+            if (!hitObjects1.Contains(obj)) {
                 hitObjects1.Add(obj);
             }
-            Vector2 start = light1.transform.position;
-            Vector2 target = obj.GetComponent<Collider2D>().bounds.center; // Collider'ın merkezini al
-            Vector2 direction = (target - start).normalized;
-            RaycastHit2D ray = Physics2D.Raycast(light1.transform.position, (target-start).normalized, 50f, targetLayer);
-            
-            if (ray.collider != null){
-                Debug.DrawLine(light1.transform.position, target, Color.green);
-                if (ray.collider.gameObject == obj.gameObject)
-                {        
-                    Debug.Log("----------------");     
-                    
-                    spike1 = obj.GetComponent<TrapDetection>();
-                    color = obj.GetComponent<ChangeColor>();
-                    lasercol = obj.GetComponent<laser>();
-                    button = obj.GetComponent<ButtonLightControl>();
-                    door = obj.GetComponent<DoorController>();
 
-                    if (color != null)
-                    {
-                        color.changetoBlue();
-                    }
-                    if (spike1 != null)
-                    {
-                        Debug.Log("efe yanlış");
 
-                        spike1.setLight(true);
-                    }
-                    if (lasercol != null)
-                    {
-                        lasercol.isLight(true);
-                    }
-                    if(button != null){
-                        Debug.Log("efe yanlış");
-                        button.ButtonAccess(true);
-                    }
-                    if(door != null){
-                        door.DoorPos(true);
-                    }
-                }
+            Debug.Log("----------------");
+
+            spike1 = obj.GetComponent<TrapDetection>();
+            color = obj.GetComponent<ChangeColor>();
+            lasercol = obj.GetComponent<laser>();
+            button = obj.GetComponent<ButtonLightControl>();
+            door = obj.GetComponent<DoorController>();
+
+            if (color != null)
+            {
+                color.changetoBlue();
             }
+            if (spike1 != null)
+            {
+                Debug.Log("efe yanlış");
+
+                spike1.setLight(true);
+            }
+            if (lasercol != null)
+            {
+                lasercol.isLight(true);
+            }
+            if (button != null) {
+                Debug.Log("efe yanlış");
+                button.ButtonAccess(true);
+            }
+            if (door != null) {
+                door.DoorPos(true);
+            }
+        
 
         }
         for(int i= hitObjects1.Count -1 ;i>=0 ; i--){

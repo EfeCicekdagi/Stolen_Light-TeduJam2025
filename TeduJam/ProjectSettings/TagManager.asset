@@ -9,6 +9,7 @@ TagManager:
   - BlueButton
   - GreenButton
   - Audio
+  - furniture
   layers:
   - Default
   - TransparentFX

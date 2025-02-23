@@ -261,8 +261,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67aa793d46184214ba9b7433bdb76e7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  growthSpeed: 0.5
-  reduceSpeed: 0.4
+  growthSpeed: 0.9
+  reduceSpeed: 0.9
   brightnessSpeed: 0.3
   reducebrightnessSpeed: 0.3
   targetLayer:
@@ -321,7 +321,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7882881327325352006}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0041a52206786e1418bf29cbcd34bb02, type: 3}
   m_Name: 

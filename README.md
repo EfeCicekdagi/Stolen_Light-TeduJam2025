@@ -34,7 +34,7 @@ Bring back the light… before it’s too late.
 
 ---
 
- Getting Started 1- Clone this repository. 2- Open the TeduJam2025 folder with Unity. 3- Use the Unity Editor to run the game.
+ Getting Started 1- Clone this repository. 2- Open the TeduJam folder with Unity. 3- Use the Unity Editor to run the game.
 ### ⚠️ Note: This project was developed during a game jam under time pressure and may contain bugs or missing components. It might not run properly without adjustments. This competition was one of our first, and it was also the first time we worked simultaneously via GitHub. 
 
 You can look at the pictures file to see screenshots from the game.

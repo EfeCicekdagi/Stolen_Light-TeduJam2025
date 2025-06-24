@@ -38,3 +38,5 @@ Bring back the light… before it’s too late.
 ### ⚠️ Note: This project was developed during a game jam under time pressure and may contain bugs or missing components. It might not run properly without adjustments. This competition was one of our first, and it was also the first time we worked simultaneously via GitHub. 
 
 You can look at the pictures file to see screenshots from the game.
+
+[Play on Itch.io](https://egedenizib.itch.io/stolen-light-egedenizib)

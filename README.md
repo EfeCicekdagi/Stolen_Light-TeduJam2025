@@ -1,6 +1,6 @@
 # 🔦Çalınan Işık 
 
-Çalınan Işık is a fun 2D puzzle game that we developed in just 24 hours with my team of 4 as part of TeduJam2025.
+Çalınan Işık is a fun 2D puzzle game that we developed in just 48 hours with my team of 4 as part of TeduJam2025.
 
 ---
 
